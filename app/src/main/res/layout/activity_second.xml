@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".A2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A2"
+        android:textSize="50sp"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn_activity_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to A1" />
+
+    <TextView
+        android:id="@+id/tv_data_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-----"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
